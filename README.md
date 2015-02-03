@@ -1,2 +1,2 @@
 # gocms
-golang 写的cms
+框架beego开发的cms
