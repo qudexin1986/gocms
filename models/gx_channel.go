@@ -3,10 +3,10 @@ package models
 import (
 	"errors"
 	"fmt"
+	"github.com/astaxie/beego/orm"
+	_ "github.com/go-sql-driver/mysql"
 	"reflect"
 	"strings"
-
-	"github.com/astaxie/beego/orm"
 )
 
 type GxChannel struct {
@@ -22,6 +22,7 @@ type GxChannel struct {
 
 func init() {
 	orm.RegisterModel(new(GxChannel))
+	orm.RegisterDataBase("default", "mysql", "root:1987123@/gocms?charset=utf8")
 }
 
 // AddGxChannel insert a new GxChannel into database and returns

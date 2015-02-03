@@ -6,76 +6,6 @@ import (
 
 func init() {
 	
-	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
-		beego.ControllerComments{
-			"Post",
-			`/`,
-			[]string{"post"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
-		beego.ControllerComments{
-			"GetOne",
-			`/:id`,
-			[]string{"get"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
-		beego.ControllerComments{
-			"GetAll",
-			`/`,
-			[]string{"get"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
-		beego.ControllerComments{
-			"Put",
-			`/:id`,
-			[]string{"put"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
-		beego.ControllerComments{
-			"Delete",
-			`/:id`,
-			[]string{"delete"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
-		beego.ControllerComments{
-			"Post",
-			`/`,
-			[]string{"post"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
-		beego.ControllerComments{
-			"GetOne",
-			`/:id`,
-			[]string{"get"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
-		beego.ControllerComments{
-			"GetAll",
-			`/`,
-			[]string{"get"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
-		beego.ControllerComments{
-			"Put",
-			`/:id`,
-			[]string{"put"},
-			nil})
-
-	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
-		beego.ControllerComments{
-			"Delete",
-			`/:id`,
-			[]string{"delete"},
-			nil})
-
 	beego.GlobalControllerRouter["gocms/controllers:GxLinkController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxLinkController"],
 		beego.ControllerComments{
 			"Post",
@@ -245,6 +175,76 @@ func init() {
 			nil})
 
 	beego.GlobalControllerRouter["gocms/controllers:GxUserController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxUserController"],
+		beego.ControllerComments{
+			"Delete",
+			`/:id`,
+			[]string{"delete"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
+		beego.ControllerComments{
+			"Post",
+			`/`,
+			[]string{"post"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
+		beego.ControllerComments{
+			"GetOne",
+			`/:id`,
+			[]string{"get"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
+		beego.ControllerComments{
+			"GetAll",
+			`/`,
+			[]string{"get"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
+		beego.ControllerComments{
+			"Put",
+			`/:id`,
+			[]string{"put"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxChannelController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxChannelController"],
+		beego.ControllerComments{
+			"Delete",
+			`/:id`,
+			[]string{"delete"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
+		beego.ControllerComments{
+			"Post",
+			`/`,
+			[]string{"post"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
+		beego.ControllerComments{
+			"GetOne",
+			`/:id`,
+			[]string{"get"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
+		beego.ControllerComments{
+			"GetAll",
+			`/`,
+			[]string{"get"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
+		beego.ControllerComments{
+			"Put",
+			`/:id`,
+			[]string{"put"},
+			nil})
+
+	beego.GlobalControllerRouter["gocms/controllers:GxInfoController"] = append(beego.GlobalControllerRouter["gocms/controllers:GxInfoController"],
 		beego.ControllerComments{
 			"Delete",
 			`/:id`,
